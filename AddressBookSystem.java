@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class AddressBookSystem {
 	public static void main(String[] args) {
-        System.out.println("*_*_*_*_*_*_*_*_*_*_Welcome to Address Book_*_*_*_*_*_*_*_*_*_*");
+		System.out.println("*_*_*_*_*_*_*_*_*_*_Welcome to Address Book_*_*_*_*_*_*_*_*_*_*");
         Contact contact = new Contact();
         String name;
         int choice;
@@ -28,9 +28,9 @@ public class AddressBookSystem {
 
                 default:
                     System.out.println("You have Entered Wrong Choice ");
+                    System.out.println();
             }
         }
 
     }
 }
-

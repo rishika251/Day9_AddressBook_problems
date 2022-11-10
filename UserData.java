@@ -10,9 +10,6 @@ public class UserData {
     String cityName;
     String stateName;
     int zipCode;
-
-
-
     //Constructor created
     public UserData(String firstName, String lastName, long phoneNumber, String emailID, String address, String cityName, String stateName, int zipCode) {
     //assign parameter
@@ -26,8 +23,17 @@ public class UserData {
         this.zipCode = zipCode;
     }
 
+    /*public void setFirstName() {
+        this.firstName = firstName;
+    }
+    public void setLastName() {
+        this.lastName = lastName;
+    }
+    public
+     */
 
-   /* public String toString() {
+
+    /*public String toString() {
         return "Address Book ::  " +
                 " " + firstName +
                 " " + lastName +
@@ -37,20 +43,16 @@ public class UserData {
                 " " + cityName +
                 " " + stateName +
                 " " + zipCode + "\n";
+    }
+     */
+    public String toString() {
+        System.out.println();
+        return "First Name: " + firstName + " \nLast Name: " + lastName + " \nContact number: "+ phoneNumber + " \nEmail ID: " + emailID + " \nAddress: " + address + " \nCity Name: " + cityName + " \nState Name: " + stateName + " \nPostal Code(Zip Code): " + zipCode + "\n";
 
     }
 
     public void print() {
-        System.out.println("First Name: " + firstName + " \nLast Name: " + lastName + " \nContact number: "+ phoneNumber + " \nEmail ID: " + emailID + " \nAddress: " + address + " \nCity Name: " + cityName + " \nState Name: " + stateName + " \nPostal Code(Zip Code): " + zipCode + "\n");
-
-    }*/
-
-
-public String toString1() {
-    System.out.println();
-    return "First Name: " + firstName + " \nLast Name: " + lastName + " \nContact number: "+ phoneNumber + " \nEmail ID: " + emailID + " \nAddress: " + address + " \nCity Name: " + cityName + " \nState Name: " + stateName + " \nPostal Code(Zip Code): " + zipCode + "\n";
+        System.out.println( "First Name: " + firstName + " \nLast Name: " + lastName + " \nContact number: "+ phoneNumber + " \nEmail ID: " + emailID + " \nAddress: " + address + " \nCity Name: " + cityName + " \nState Name: " + stateName + " \nPostal Code(Zip Code): " + zipCode + "\n");
+    }
 
 }
-
-}
-
